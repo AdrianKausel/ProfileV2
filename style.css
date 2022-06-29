@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.nav {
+    background-color: rgb(59, 59, 59);
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.nav-title {
+    color: white;
+    font-weight: 300;
+    margin-left: 15%;
+}
+
+.nav-links {
+
+    color: azure;
+    margin-left: 100px;
+    text-align: start;
+    width: 45%;
+
+}
+.button{
+    align-self: center;
+    margin-right: 20%
+
+
+}
+.btn{
+    border-color: black;
+    color: white;
+    align-self: center;
+    background-color: lightseagreen;
+    box-shadow: 5px 5px 5px black;
+    width: 90px;
+    height: 40px;
+    cursor:pointer;
+}
+a {
+    color: silver;
+    font-weight: 400;
+    text-decoration: none;
+    justify-content: space-around;
+    margin-left: 30px;
+
+}
+.active {
+    color: white;
+}
+
+.leftcol{
+    margin-left: 15%;
+    flex-direction: column;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    width: 35%;
+    vertical-align: top;
+
+}
+.rightcol{
+    flex-direction: column;
+    display: inline-flex;
+    margin-left: 2%;
+    width: 17%;
+    margin-right: 20%;
+    vertical-align: top;
+    margin-top: 5%;
+    
+}
+
+#cuadro1{
+    background-color: whitesmoke;
+    border: solid 3px;
+    border-color: silver;
+    height: 490px;
+    width:100%;
+    flex-direction:column;
+    align-content:flex-start;
+    align-items:flex-start;
+    text-align:left;
+
+}
+
+.cuadro1header {
+    background-color: rgb(67, 68, 67);
+    width: auto;
+    height: 110px;
+
+
+}
+
+.profilepic{
+    height: 150px;
+    width: 150px;
+    background-color: white; 
+    border-radius: 50%;
+    border: solid 5px;
+    border-color: rgb(220, 217, 217);
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.locationpin {
+    height: 35px;
+    width: 35px;
+    margin-left: 4%;
+
+}
+
+#nombreusuario{
+    color: rgb(72, 69, 69);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-top: 18%;
+    margin-left: 5%;
+}
+
+.ubicacion{
+    color: black;
+    font-weight: 300;
+    display: inline-flex;
+    align-items: center;
+}
+
+.description {
+    color: black;
+    font-weight: 300;
+    display: flex;
+    margin-left: 5%;
+
+} 
+
+.settbtn {
+    height: 25px;
+    width: 25px;
+    margin-left: 5%;
+    align-self: center;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.edit {
+    color: black;
+    font-weight: 300;
+    margin-left: 1%;
+    align-self: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#cuadro2{
+    background-color: whitesmoke;
+    border: solid 3px;
+    border-color: silver;
+    width: 100%;
+    
+} 
+
+
+.cuadro2header{
+    background-color: rgb(66, 91, 98);
+    height: 40px;
+    width: auto;
+    padding: 10px;
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+
+#circle1 {
+
+    height: 40px;
+    width: 40px;
+    font-weight: 200;
+    border-radius: 50%;
+    border: solid 2px;
+    border-color: rgb(244, 248, 250);
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+
+
+
+}
+
+.txtcuadro2{
+    align-self: center;
+}
+
+#requests1{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#requests2{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.profilereq{
+    height: 40px;
+    width: 40px;
+
+}
+.friendstxt {
+    color: black;
+    align-self: center;
+    font-weight: 600;
+}
+
+.checkimg {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.check{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.cross{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.crossin{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+
+}
+
+#cuadro3{
+    background-color: whitesmoke;
+    border: solid 3px;
+    border-color: silver;
+    height: auto;
+    width: 100%;
+    margin-top: 4%;
+
+}
+.cuadro3header{
+    background-color: rgb(66, 91, 98);
+    height: 40px;
+    width: auto;
+    padding: 10px;
+    display: flex; 
+    vertical-align: top;
+    justify-content: space-evenly;
+}
+.circle2{
+
+    height: 40px;
+    width: 60px;
+    font-weight: 200;
+    border-radius: 70%;
+    border: solid 2px;
+    border-color: rgb(244, 248, 250);
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.connections{
+    display: flex;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+#connectionshide{
+    display: flex;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+#connectionshide1{
+    display: flex;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+#cuadro4{
+    background-color: whitesmoke;
+    border: solid 3px;
+    border-color: silver;
+    height: 50px;
+    width: 100%;
+    margin-left: -3px ;
+    color: black;
+    align-items: center;
+
+    
+}
+.vmtxt{
+    color: black;
+    display: block;
+    justify-content: flex-start;
+    margin-top: 12px;
+    text-decoration: underline;
+
+}
+#cuadro5{
+    background-color: whitesmoke;
+    border: solid 3px;
+    border-color: silver;
+    height: 220px;
+    width: 100%;
+    color: black;
+    text-align: left;
+    margin-top:4%;
+}
+.cuadro5header{
+    background-color: rgb(66, 91, 98);
+    height: 40px;
+    width: auto;
+    display: flex; 
+    vertical-align: top;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: large;
+    color: white;
+    
+}
+
+.textocuadro5{
+    color: black;
+    font-weight: 300;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    margin-left: 4%;
+}

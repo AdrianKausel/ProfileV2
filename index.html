@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Connections</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+
+    <body>
+    
+        <div class="nav">
+            <h1 class="nav-title">Profile</h1>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#" class="active">My Profile</a>
+                <a href="#">Find Connections</a>
+            </div>
+            <div class="button">
+                <button class="btn">Sign Out</button>
+            </div>
+        </div>
+
+        <div class="leftcol">
+            <div id="cuadro1">
+                <div class="cuadro1header">
+                    <img src="Circle-icons-profile.svg.png" alt="userpic"  class="profilepic" >
+                </div>
+                
+                <h1 id="nombreusuario"> Adrián Kausel </h1>
+                <div><img src="location-pin-connectsafely-37.png" alt="locationpin" class="locationpin" ><h2 class="ubicacion"> Pucón </h2></div>
+                <p class="description"> Developer | Producer | Master of shadows and internet! </p>
+                <div><img src="settingsbutton.png" alt="settings" class="settbtn" ><a href="#" class="edit" onclick="changename()"> Edit Profile </a></div>
+            </div>
+            <div id="cuadro5">
+                <div class="cuadro5header">
+                    <p style="margin-left: 4% ;"> Education</p>
+                </div>
+                <h2 class="textocuadro5"> Coding Dojo - Full Stack Bootcamp</h2>
+                <h3 class="textocuadro5"> May 2022</h3>
+                <p class="textocuadro5"> Triple black belt in Python, MERN, and C#.. </p>
+    
+            </div>
+        </div>
+        
+        <div class="rightcol">
+            <div id="cuadro2">
+                <div class="cuadro2header">
+                    <div id="circle1"> 
+                        <p> 2 </p>
+                    </div>
+                    <p class="txtcuadro2"> Connection Requests</p>
+                </div> 
+                <div id="requests1">
+                    <div><img src="Circle-icons-profile.svg.png" alt="profilepic"  class="profilereq" ></div>
+                    <p class="friendstxt"> Todd E </p>
+                    <button class="check" onclick="add()"><img class="checkimg" src="Green-Check-Mark-Transparent-Background.png" alt="greencheck"></button>
+                    <button class="cross" onclick="remove()"><img class="crossin" src="a532564-0.png" alt="redcross"></button>
+                </div>
+                <div id="requests2">
+                    <div><img src="Circle-icons-profile.svg.png" alt="profilepic" class="profilereq"></div>
+                    <p class="friendstxt"> Phill K </p>
+                    <button class="check" onclick="add1()"><img class="checkimg" src="Green-Check-Mark-Transparent-Background.png" alt="greencheck" ></button>
+                    <button class="cross" onclick="remove1()"><img class="crossin" src="a532564-0.png" alt="redcross"></button>
+                </div>
+            </div>
+
+            <div id="cuadro3">
+                <div class="cuadro3header">
+                    <div class="circle2">
+                        <p> 500+</p>
+                    </div>
+                    <p class="txtcuadro2"> Your Connections</p>
+                </div>
+                <div class="connections">
+                    <div><img src="Circle-icons-profile.svg.png" alt="profilepic" class="profilereq"></div>
+                    <p class="friendstxt"> Adrien D </p>
+                </div>
+                <div class="connections">
+                    <div><img src="Circle-icons-profile.svg.png" alt="profilepic" class="profilereq"></div>
+                    <p class="friendstxt"> Anne J  </p>
+                </div>
+                <div class="connections">
+                    <div><img src="Circle-icons-profile.svg.png" alt="profilepic" class="profilereq"></div>
+                    <p class="friendstxt"> Alayne T </p>
+                </div>
+                <div class="connections">
+                    <div><img src="Circle-icons-profile.svg.png" alt="profilepic" class="profilereq"></div>
+                    <p class="friendstxt"> Arry Y </p>
+                </div>
+                <div id="connectionshide" style="display:none">
+                    <div><img src="Circle-icons-profile.svg.png" alt="profilepic" class="profilereq"></div>
+                    <p class="friendstxt"> Todd E </p>
+                </div>
+                <div id="connectionshide1" style="display:none">
+                    <div><img src="Circle-icons-profile.svg.png" alt="profilepic" class="profilereq"></div>
+                    <p class="friendstxt"> Phill K </p>
+                </div>
+
+
+
+        
+                <div id="cuadro4">
+                    <a href="#" class="vmtxt"> View more </a>
+                </div>
+            </div>
+        
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+
+</html>
